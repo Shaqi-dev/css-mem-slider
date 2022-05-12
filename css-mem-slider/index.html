@@ -5,9 +5,38 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
   <title>CSS Mem Slider</title>
 </head>
 <body>
+  <section class="section slider">
+    <div class="wrapper">
+      <h1 class="title">CSS Mem Slider</h1>
+      
+      <div class="slider">
+        <input type="radio" name="slider" id="slide-1" class="slider__radio">
+        <input type="radio" name="slider" id="slide-2" class="slider__radio">
+        <input type="radio" name="slider" id="slide-3" class="slider__radio" checked>
+        <input type="radio" name="slider" id="slide-4" class="slider__radio">
+        <input type="radio" name="slider" id="slide-5" class="slider__radio">
   
+        <div class="slider__content">
+          <div class="slider__item slider__item--1"></div>
+          <div class="slider__item slider__item--2"></div>
+          <div class="slider__item slider__item--3"></div>
+          <div class="slider__item slider__item--4"></div>
+          <div class="slider__item slider__item--5"></div>
+        </div>
+  
+        <div class="bullets">
+          <label for="slide-1" class="bullets__item bullets__item--1"></label>
+          <label for="slide-2" class="bullets__item bullets__item--2"></label>
+          <label for="slide-3" class="bullets__item bullets__item--3"></label>
+          <label for="slide-4" class="bullets__item bullets__item--4"></label>
+          <label for="slide-5" class="bullets__item bullets__item--5"></label>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
